@@ -40,6 +40,11 @@ body {
     font-size: 2rem;
     line-height: 1.8;
     color: $color-text-light;
+
+    @include respond(tab-port) {
+      font-size: $default-font-size;
+      line-height: 1.6;
+    }
   }
 
   &__hero_cta {
@@ -54,4 +59,8 @@ body {
   font-weight: 800;
   font-size: 5.6rem;
   color: $color-primary-dark;
+
+  @include respond(tab-port) {
+    font-size: 3.8rem;
+  }
 }

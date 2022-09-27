@@ -1,0 +1,20 @@
+@use "../abstracts" as *;
+
+// Header Typography
+.header__navigation {
+  &_item {
+    &-logo {
+      color: $color-primary-dark;
+    }
+    &-link {
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: $color-white;
+      background: $color-primary-dark;
+      border-radius: 2.8rem;
+      padding: 1.4rem 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@use "../abstracts" as *;
+
+.section__grid {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  padding: 5rem;
+}
+
+.grid__container {
+  display: grid;
+  column-gap: 1.5rem;
+  row-gap: 4rem;
+  grid-template-columns: repeat(3, 1fr);
+
+  @include respond(tab-land) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond(phone) {
+    grid-template-columns: 1fr;
+  }
+}

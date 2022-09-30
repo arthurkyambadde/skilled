@@ -2,13 +2,17 @@
 
 .section__grid {
   background: linear-gradient(180deg, $color-white 0%, #f0f1ff 100%);
-  padding: 5rem;
+  padding: 5rem 5rem 5rem 10rem;
+
+  @include respond(phone) {
+    padding: 5rem;
+  }
 }
 
 .grid__container {
   display: grid;
   column-gap: 1.5rem;
-  row-gap: 4rem;
+  row-gap: 5rem;
   grid-template-columns: repeat(3, 1fr);
 
   @include respond(tab-land) {

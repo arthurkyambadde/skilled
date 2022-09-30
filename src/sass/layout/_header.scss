@@ -59,45 +59,6 @@
       @include respond(phone) {
         transform: translate(0, 0);
       }
-
-      &--desktop {
-        display: inline;
-      }
-
-      &--tab {
-        display: none;
-      }
-      &--mobile {
-        display: none;
-      }
-
-      @include respond(tab-land) {
-        &--tab {
-          display: inline;
-        }
-
-        &--desktop {
-          display: none;
-        }
-
-        &--mobile {
-          display: none;
-        }
-      }
-
-      @include respond(phone) {
-        &--mobile {
-          display: inline;
-        }
-
-        &--desktop {
-          display: none;
-        }
-
-        &--tab {
-          display: none;
-        }
-      }
     }
 
     &_cta {
@@ -106,7 +67,7 @@
         $color-secondary-light 0%,
         $color-secondary-dark 100%
       );
-      border-radius: 31.5px;
+      border-radius: 3.2rem;
       padding: 1.4rem 1.6rem;
       transition: 1s ease-out;
 

@@ -29,7 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Skilled e-learning landing page - Desktop version](./src/assets/Screenshot%20Desktop%20Frontend%20Mentor%20Skilled%20e-learning%20landing%20page.png)
+![Skilled e-learning landing page - Tablet version](./src/assets/Screenshot%20Tablet%20Frontend%20Mentor%20Skilled%20e-learning%20landing%20page.png)
+![Skilled e-learning landing page - Mobile version](./src/assets/Screenshot%20Mobile%20Frontend%20Mentor%20Skilled%20e-learning%20landing%20page.png)
 
 ### Links
 
@@ -42,7 +44,7 @@ Users should be able to:
 
 - Atfer writing some markup, I wrote a (`package.json`) file to assist compile my SCSS to CSS and for SASS am going with the modern SCSS modules of **@forwards & @use** statements.
 
-- For the webpage styling, SCSS file structure am going with a (`7 - 1 file & folder structure)` pattern since it's more handy for the BEM modal and allows you to easily refactor, organize and structure your code in a way that is clear easy and simple to navigate.
+- For the webpage styling, SCSS file structure am going with a (`7 - 1 file & folder structure)` pattern since it's more handy for the **BEM** modal and allows you to easily refactor, organize and structure your code in a way that is clear easy and simple to navigate.
 
 ### Built with
 
@@ -50,11 +52,12 @@ Users should be able to:
 - CSS Custom Properties
 - SCSS variables
 - Flexbox
+- CSS Grid
 - Desktop-first workflow
 
 ### What I learned
 
-- I have managed to revive and upgrade on my knowledge of SASS, SCSS in the project by researching about the best way to compile your SCSS into CSS and discovered that using an extension is not efficient for it makes working on one project between various developers difficult for you can't export any JSON file for others to know which dependencies you using on a certain project and you have to explicitily inform the other developers the extensions you using on a certain project which is not practical.
+- I have managed to revive and upgrade on my knowledge of SASS, SCSS in the project by researching about the best way to compile your SCSS into CSS and discovered that using an extension is not so efficient for it makes working on one project for more than one developer difficult for you can't export any JSON file for others to know which dependencies you using on a certain project and you have to explicitily inform the other developers the extensions you using on a certain project which is not practical.
 
 - Inorder to address the mentioned issue I installed a JSON file to assist me set up some dependecies that will always watch my SCSS declaration and compile them to CSS
 
@@ -95,7 +98,7 @@ Users should be able to:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+This is my first project to deal with responsive images in a way of helping the browser render images dynamically based on the view-port width using the Html `<picture></picture>` tag and this concept is still challenging to me and am planning to keep practising this concept in my future projects till I fully understand the `<source />` tag and all it's attributes such as the `srcset` and many more.
 
 ### Useful resources
 

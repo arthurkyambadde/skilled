@@ -45,21 +45,25 @@
           </div>
         </div>
         <div class="header__hero-img-wrapper">
-          <img
-            src="./assets/image-hero-desktop@2x.png"
-            alt="hero desktop"
-            class="header__hero-img header__hero-img--desktop"
-          />
-          <img
-            src="./assets/image-hero-desktop.png"
-            alt="hero desktop"
-            class="header__hero-img header__hero-img--tab"
-          />
-          <img
-            src="./assets/image-hero-mobile.png"
-            alt="hero desktop"
-            class="header__hero-img header__hero-img--mobile"
-          />
+          <picture>
+            <source
+              srcset="/assets/image-hero-mobile.webp"
+              media="(max-width: 576px)"
+            />
+            <source
+              srcset="/assets/image-hero-tablet.webp"
+              media="(max-width: 900px)"
+            />
+            <source
+              srcset="/assets/image-hero-desktop.webp"
+              media="(min-width: 1200px)"
+            />
+            <img
+              src="/assets/image-hero-mobile.webp"
+              alt="A beautiful woman in the hero section"
+              class="header__hero-img"
+            />
+          </picture>
         </div>
       </div>
     </header>
@@ -178,5 +182,17 @@
         </div>
       </section>
     </main>
+    <footer class="footer__section">
+      <nav class="footer__nav">
+        <ul class="footer__navigation">
+          <li class="footer__navigation_item">
+            <img src="./assets/logo-light.svg" alt="logo" />
+          </li>
+          <li class="footer__navigation_item">
+            <a href="#navLink" class="header__hero_cta">Get Started</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
